@@ -256,6 +256,10 @@ if (is.null(opt$f)) {
     stop("Choose one of the possible functions.")
 }
 
+if (opt$f == "list_schemes") {
+    list_schemes()
+}
+
 if (opt$f == "list_organisms") {
     list_organisms()
 }
