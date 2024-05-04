@@ -253,6 +253,7 @@ scheme_index_table <- scheme_index_table_from_url(url)
 # Check the provided option and execute the corresponding code -----------------
 if (is.null(opt$f)) {
     print_help(opt_parser)
+    stop("Choose one of the possible functions.")
 }
 
 if (opt$f == "list_organisms") {
