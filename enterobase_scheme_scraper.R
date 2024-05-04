@@ -230,6 +230,7 @@ option_list <- list(
     make_option(c("-f", "--function"),
         type = "character", metavar = "character",
         help = "Function to be performed \n\n\t\tPossible functions are:\n
+            \t| list_schemes              |   to list all available schemes on Enterobase
             \t| list_organisms            |   to list all available organisms on Enterobase
             \t| list_organism_schemes     |   to list all available Enterobase schemes for a given organism_id
             \t| download_scheme           |   to download all files included in schema \n"
